@@ -1,4 +1,8 @@
 def rectangle_area(a, b):
+    if a<0 or b<0:
+        raise ValueError("if either number was negative")
+    else
+        return a*b
     """
     Calculates the area of a rectangle given its side lengths
 
